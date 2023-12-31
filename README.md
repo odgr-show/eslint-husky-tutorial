@@ -1,1 +1,1 @@
-# eslint-husky-tutrial
+# eslint-husky-tutorial
