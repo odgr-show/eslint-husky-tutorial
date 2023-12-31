@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-console": ["off"],
+        "indent": ["error", 2],
+        "prefer-promise-reject-errors": "error",
+        "no-undef": "off", // 必要に応じて未定義の変数に関する警告を無効にする
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "no-unused-vars": "off"
+    },
+    "extends": ["airbnb-base"]
+}
